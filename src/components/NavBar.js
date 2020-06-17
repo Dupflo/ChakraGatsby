@@ -11,7 +11,7 @@ import {
 import { Link } from "gatsby"
 import Logo from "../images/logo.svg"
 
-const Navbar = () => {
+const NavBar = () => {
   const { colorMode, toggleColorMode } = useColorMode()
   const bgColor = { light: "gray.300", dark: "gray.600" }
   const textColor = { light: "black", dark: "gray.100" }
@@ -66,4 +66,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default NavBar
