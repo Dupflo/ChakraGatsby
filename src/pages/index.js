@@ -5,11 +5,12 @@ import SEO from "../components/seo"
 
 const IndexPage = () => {
   const { colorMode } = useColorMode()
+
   return (
     <Layout>
       <SEO title="Home" />
       <Box fontSize="2xl" textAlign="center">
-        You can explore different examples from the navbar above ⬆️ <br />
+        Welcome on this Chapka Boilerplate for GatsbyJS ⬆️ <br />
         Learn more about Chakr-UI @
         <Link href="https://chakra-ui.com/">www.chakra-ui.com</Link> <br />
         Chakra-ui is made an maintaned by Segun Adebayo.

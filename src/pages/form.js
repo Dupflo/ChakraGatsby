@@ -19,7 +19,7 @@ const Form = () => {
     <Layout>
       <Box
         bg={colorMode === "light" ? "gray.200" : "gray.600"}
-        w="350px"
+        w="500px"
         p={3}
         boxShadow="sm"
         rounded="lg"
