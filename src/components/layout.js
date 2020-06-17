@@ -5,7 +5,7 @@ import {
   CSSReset,
   ColorModeProvider,
 } from "@chakra-ui/core"
-import Navbar from "../components/NavBar"
+import NavBar from "../components/NavBar"
 
 function Layout({ children, Component, pageProps }) {
   return (
